@@ -1,0 +1,17 @@
+{
+    "name": "grogy/php-czech-calendar",
+    "description": "Czech calendar in PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Václav Makeš",
+            "email": "info@makes.cz"
+        }
+    ],
+    "require": {
+		"maxon-design/exceptions": "v1.1.0"
+    },
+	"require-dev": {
+		"nette/tester": "0.9.2"
+	}
+}
