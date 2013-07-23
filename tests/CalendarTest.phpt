@@ -1,7 +1,7 @@
 <?php
 
 use Tester\Assert;
-use Grogy\CzechCalendar\Calendar;
+use Grogy\Calendar\Calendar;
 
 require __DIR__ . '/bootstrap.php';
 

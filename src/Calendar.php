@@ -1,6 +1,6 @@
 <?php
 
-namespace Grogy\CzechCalendar;
+namespace Grogy\Calendar;
 
 class Calendar
 {
