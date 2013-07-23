@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-		"maxon-design/exceptions": "v1.1.0"
+		"maxon-design/exceptions": "v1.2.0"
     },
 	"require-dev": {
 		"nette/tester": "0.9.2"
