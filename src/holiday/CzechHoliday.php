@@ -2,6 +2,8 @@
 
 namespace Grogy\Calendar\Holiday;
 
+use Maxondesign\Exception\Logic\App\InvalidArgumentException;
+
 class CzechHoliday implements IHoliday
 {
 	protected static $holiday = array(
@@ -412,6 +414,9 @@ class CzechHoliday implements IHoliday
 
 	public function isFreeHoliday($day, $month)
 	{
-		return self::$holiday[$day][$month][1];
+		if (!isset(self::$holiday[$month]) || !isset(self::$holiday[$month][$day]))
+			throw new InvalidArgumentException;
+
+		return self::$holiday[$month][$day][1];
 	}
 }
