@@ -54,8 +54,6 @@ class Calendar
 		$numericMonth = $this->dateTime->format("n");
 		$numericDay = $this->dateTime->format("j");
 
-		echo "$numericDay - $numericMonth\n";
-
 		if ($this->holiday->isFreeHoliday($numericDay, $numericMonth))
 			return TRUE;
 
