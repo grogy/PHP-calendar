@@ -410,8 +410,8 @@ class CzechHoliday implements IHoliday
 
 
 
-	public function isFreeHoliday($day, $month)
+	public function isFreeHoliday($monthNumber, $dayNumber)
 	{
-		return self::$holiday[$day][$month][1];
+		return self::$holiday[$monthNumber][$dayNumber][1];
 	}
 }
