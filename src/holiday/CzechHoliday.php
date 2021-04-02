@@ -301,7 +301,7 @@ class CzechHoliday implements IHoliday
 			25 => array('Zlata', FALSE),
 			26 => array('Andrea', FALSE),
 			27 => array('Jonáš', FALSE),
-			28 => array('Václav', FALSE),
+			28 => array('Václav', TRUE),
 			29 => array('Michal', FALSE),
 			30 => array('Jeroným', FALSE),
 		),
