@@ -15,7 +15,7 @@
         "classmap": ["src/"]
     },
     "require-dev": {
-        "nette/tester": "^2.0"
+        "nette/tester": "^1.0 || ^2.0"
     },
     "scripts": {
         "test": "vendor/bin/tester tests/"
